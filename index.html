@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Pen</title>
+  </head>
+  
+  <body>
+    <header> <!--container tag-->
+    <h1>sejal mankar</h1>
+    <p>python</p>
+    </header>
+    <main>
+     <nav> <!--container tag --> 
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work experience">work experience</a></li>
+        <li id="hobbies"><a href="#hobbies">hobbies</a></li>
+        <li id="projects"><a href="#projects">projects</a></li>
+
+        <!--mandatory section-->
+        <li><a href="#contact-me">contact me</a></li>
+        <li><a href="#admin-login" onClick= "showAdminlogin()">Admin login</a></li>
+      </ul>
+     </nav>
+      <button id="toggle-theme">Toggle theme</button>
+
+      <section id="education" class="section-style"> <!--container tag-->
+        <h2 id="edu">Education</h2>
+        <h3>University of RTMNU</h3>
+        <p>b.tech</p>
+        <p>2027</p>
+
+        <h3>NITM</h3>
+        <p>AIML</p>
+        <p>2023</p>
+
+        <h3>School of scholar</h3>
+        <p> non med</p>
+        <p>2021</p>
+      </section>
+
+      <section id="hobbies" class="section-style"> <!--container tag-->
+        <h2>Hobbies</h2>
+        <p>painting,gameing,exploaring new things</p>
+
+        
+      </section>
+
+         <section id="project" class="section-style"> <!--container tag-->
+        <h2>project</h2>
+        <p>AI companinon</p>
+           <p>2026</p>
+
+        
+      </section>
+
+         <section id="contact-me" class="section-style"> <!--container tag-->
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <div id="" class="">
+          <label>name:</label>
+          <input type="text" id="name"' required>
+          </div>
+          <!--form validation-->
+          <!--regular expressions--> <!--intermediate-->
+        <div id="">
+         <label>Email:</label>
+          <input type="email" id="email" required>
+        </div>
+          <div id="">
+          <label>Message:</label>
+            <textarea id="message"></textarea>
+          </div>
+        <button type="submit">send</button>
+        </form>
+            </section>
+
+       <section id="admin-login" class="section-style"> <!--container tag-->
+        <h2>Admin Login</h2>
+        <form id="admin-form">
+          <div id="">
+          <label>username:</label>
+          <input type="text" id="input_username" required>
+          </div>
+          
+        <div id="">
+         <label>password:</label>
+          <input type="password" id="input_password" required>
+        </div>
+         
+        <button type="submit">send</button>
+        </form>
+      </section>
+      <section id="user-messages" class="section-style">
+        <h2>User Messages</h2>
+        <div id="user-responses">
+          
+        </div>
+      </section>
+     
+    </main>
+
+    <footer>
+      <center> made with ❤︎‬ by sejal | © 2026</center>
+
+      
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

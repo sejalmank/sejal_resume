@@ -1,0 +1,98 @@
+/*selectors*/
+/*types of selectors*/
+
+/*1. HTML tags - no special char, needed
+2. class names- DOT (.) will be required as a prefix
+3. ID names - HASH (#) will be required as a prefix
+*/
+/* css box model*/
+body{
+  background-color: yellow
+}
+header{
+  text-align: center;
+  border:10px solid #F7AF9D;
+  background-color: #B3B21A
+}
+nav{
+  background-color: grey;
+}
+nav ul{
+  display:flex;
+  list-style-type:none;
+  justify-content: center;
+}
+nav ul li {
+  margin: 10px;
+  color:  blue;
+}
+nav ul li a{
+  color: blue;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color:pink;
+  border:2px;
+  border-style: solid;
+  border-color: white;
+  border-radius:10px;
+  font-size: 18px;
+  padding:4px;
+}
+form{
+  margine-top:18px;
+}
+.section-style{
+  background-color: #fff;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 10px
+}
+
+#admin-login {
+  display: none;
+}
+
+#user-messages{
+  display: none;
+}
+
+#toggle-theme{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  animation: float 3s infinite;
+}
+
+.section-style h2{
+  color: green;
+  border-bottom:2px solid blue;
+  padding:2px;
+  margin:2px;
+}
+.dark-theme{
+  background-color: pink;
+}
+
+.dark-theme header{
+  background-color: #34495e;
+  color: #fff;
+  border-top: 10px sloid  #34495e;
+  border-left: 10px sloid  #34495e;
+  border-right: 10px sloid  #34495e;
+}
+
+.dark-theme nav{
+  background-color: #34495c;
+}
+
+@keyframes float {
+  0%, 100%{
+    transform: translateY(0px);
+  }
+  
+  50%{
+    transform: translateY(+20px);
+  }
+}
